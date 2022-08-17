@@ -19,7 +19,6 @@ contactEmail.verify((error) => {
 const postMail = (req, res) => {
     const {name ,email, message} = req.body
 
-    res.send("Contact");
     const mail = {
         from: name,
         to: process.env.GMAIL_USER,
