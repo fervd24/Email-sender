@@ -31,4 +31,3 @@ To get started, clone/fork or download as zip the repository.
     ├── package.json.lock
 
 ------
-
